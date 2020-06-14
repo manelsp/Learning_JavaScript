@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forumlario</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <p> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        Tarea:  <input id = "Tarea"> 
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        Prioridad: 
+        <select id =  "Prioridad">
+            <option>Urgente</option>
+            <option>Normal</option>
+            <option>Pasando</option>
+        </select>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        Fecha: <input id = "Fecha" type="date">
+
+    </p>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button id = "AgregarTarea">Agregar</button>
+
+    <hr>
+
+    <ul id = "ListaTareas">
+    </ul>
+
+    <script src="logic.js"></script>
+</body>
+</html>

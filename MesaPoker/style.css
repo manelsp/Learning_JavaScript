@@ -1,0 +1,12 @@
+/*#jugadores {
+    display: flex;
+}*/
+
+#baraja {
+    display: flex;
+}
+
+.card {
+    box-shadow: 10px 10px 5px grey;
+    margin: 10px 10px;
+}

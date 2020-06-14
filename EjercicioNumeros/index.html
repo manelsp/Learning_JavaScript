@@ -1,0 +1,67 @@
+<script>
+
+    //NUMEROS 
+    function BucleNumeros ()
+    {
+        let numero = 13; 
+
+        document.writeln(numero + " <br>");
+        while(numero != 1)
+        {
+            if (numero%2 == 0)
+            {
+                numero /= 2; 
+            }
+            else
+            {
+                numero = numero * 3 + 1; 
+            }
+            document.writeln(numero + " <br>");
+        }    
+    }
+
+    //TELEFONO
+    function ComprobarTelefono() 
+    {
+        let telefono = "689805423";
+        let telValido = false; 
+
+        if( telefono > 100000000 && telefono < 999999999)
+        {
+            telValido = true; 
+        }
+       
+        document.writeln(telValido + " <br>");
+    }
+
+    function FormatoTelefono()
+    {
+        let telefono = "689805520";
+        let telValido = false; 
+        let telefonoFormato = " "; 
+
+        if( telefono > 100000000 && telefono < 999999999)
+        {
+            telValido = true; 
+        }
+       
+        document.writeln(telValido + " <br>");
+
+        if(telValido == true)
+        {
+            for(i = 0; i < 9; i++)
+            {
+                telefonoFormato += telefono.charAt(i); 
+                
+                if(i < 8 && (i+1)%3 == 0)
+                {
+                    telefonoFormato += "-"; 
+                }
+            }
+            document.writeln(telefonoFormato);
+        }
+    }
+
+    FormatoTelefono(); 
+
+</script>

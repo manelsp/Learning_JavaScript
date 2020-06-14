@@ -1,0 +1,12 @@
+.cuadrado {
+    width: 35px; 
+    height: 35px; 
+    background: #428bca;
+    border: 3px solid #555;
+    color: blanchedalmond; 
+    font-size: 125% ;
+    margin: 10px;
+    padding: 8px; 
+    text-align: center;
+    display: inline-block;
+   }
